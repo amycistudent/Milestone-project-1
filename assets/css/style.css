@@ -1,6 +1,6 @@
-body{background-color: yellow;
-
+html,body{width:100%;overflow-x:hidden !important;
 }
+
 /*-------------------------------------------Navigation Menu*/
 
 .container-fluid{ padding: 0;}
@@ -9,6 +9,7 @@ body{background-color: yellow;
     margin-bottom: 0;
     padding-left: 0;
     margin-left:-20px;
+    overflow: hidden;
    }
 
 .navbar-default{background-color: inherit;}
@@ -27,7 +28,7 @@ ul{ list-style-type: none;}
 .menuitem a{
         width: 100%;
         text-decoration: none;
-        color: yellow;
+        color: #ffffff;
         height: 120px;
         
 }
@@ -36,7 +37,6 @@ ul{ list-style-type: none;}
     padding-top: 22px;
     padding-bottom: 10px;
     display: block;
-    color: yellow;
     font-size: 35px;
     }
     
@@ -48,15 +48,11 @@ ul{ list-style-type: none;}
     
 /*----------------------------------------Image section*/
     .logo{
-    background: url("../images/beachboys.jpg");
-    padding-top: 40px;
+    background: url("../images/bground.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 300px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    min-height: 400px;
 }
     
 /*-----------------------------------------------Hover*/
@@ -70,6 +66,8 @@ footer {
       background-color: #555;
       color: white;
     height:70px;
+    overflow-x: hidden;
+    position: fixed;
 }
         
 .social{
