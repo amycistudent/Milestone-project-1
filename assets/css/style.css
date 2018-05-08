@@ -1,0 +1,84 @@
+body{background-color: yellow;
+
+}
+/*-------------------------------------------Navigation Menu*/
+
+.container-fluid{ padding: 0;}
+
+.navbar{
+    margin-bottom: 0;
+    padding-left: 0;
+    margin-left:-20px;
+   }
+
+.navbar-default{background-color: inherit;}
+
+
+.header{ border-top: none;}
+
+ul{ list-style-type: none;}
+
+.menuitem{
+    height: 120px;
+    text-align: center;
+    
+    }
+    
+.menuitem a{
+        width: 100%;
+        text-decoration: none;
+        color: yellow;
+        height: 120px;
+        
+}
+
+.menuitem a i{
+    padding-top: 22px;
+    padding-bottom: 10px;
+    display: block;
+    color: yellow;
+    font-size: 35px;
+    }
+    
+    .ul-menu-color{
+    background-color: #000;
+    font-family: 'Creepster', cursive;
+    font-size: 20px;
+}
+    
+/*----------------------------------------Image section*/
+    .logo{
+    background: url("../images/beachboys.jpg");
+    padding-top: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+    
+/*-----------------------------------------------Hover*/
+    
+.hvr-sweep-to-bottom:before{
+     height: 120px;
+        }
+        
+/*--------------------------------------------------------Footer*/
+footer {
+      background-color: #555;
+      color: white;
+    height:70px;
+}
+        
+.social{
+    font-family: 'Creepster', cursive;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: yellow;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: black;
+    text-align: center;
+    }
