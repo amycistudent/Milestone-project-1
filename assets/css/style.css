@@ -53,6 +53,7 @@ h1{ background-color: #1f8093;
     height: 100px;
     padding-top: 30px;
     letter-spacing: 10px;
+    font-size: 40px;
 }
 
 
@@ -95,14 +96,6 @@ header{ background-color: #1f8093;
 }
 
 
-    
-/*--------------------------------------------------------Hover*/
-    
-.hvr-sweep-to-bottom:before{
-     height: 120px;
-     background-color: black;
-        }
-        
 /*-------------------------------------------------------AboutTheBand*/
 .john{
     background: url("../images/john.jpg");
@@ -111,6 +104,8 @@ header{ background-color: #1f8093;
     border-style: solid;
     border-color: #1f8093;
     border-width: 10px;
+    border-radius: 50%;
+    text-align: center;
 }
 .paul{
     background: url("../images/paul.jpg");
@@ -119,6 +114,7 @@ header{ background-color: #1f8093;
     border-style: solid;
     border-color: #8d573f;
     border-width: 10px;
+
 }
 .ringo{
     background: url("../images/ringo.jpg");
